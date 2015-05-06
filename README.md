@@ -1,9 +1,15 @@
-For the first addendum, I have developed two games:
-1. BlackJack: Compiles and runs as expected.
-2. Slot Machine: Gets compiled but needs some improvements to work as expected.
+Application has three game modules developed:
+1. BlackJack
+2. Slot Machine
+3. Poker - Texas Hold'em
+
+
+----- Instructions -----
+Replace the path for database in class Sqlite.java under the package ControllerPck.
+final String DatabasePath = "jdbc:sqlite:Pathof/database";
+
 
 ----- How to run? -----
-Front end for the project is not developed. So the project can be run as command line application as of now.
-To execute run the 'main.java' file under Client package.
-Planning to use Swing framework for developing front end.
+To run the application execute the class HTTPServer under package ControllerPck.
+Now open the web browser and go to url: https://127.0.0.1:5000.
 
